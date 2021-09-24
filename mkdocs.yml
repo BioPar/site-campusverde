@@ -1,0 +1,34 @@
+site_name: Campus Verde — Parnamirim
+site_url: https://campusverde.par.ifrn.edu.br/
+site_author: Equipe do Campus Verde do IFRN campus Parnamirim
+site_dir: /var/www/campusverde.par/
+site_description: >-
+  Sítio eletrônico do projeto Campus Verde do IFRN campus Parnamirim.
+
+# Repository
+repo_url: https://gitlab.devops.ifrn.edu.br/campusverde.par/site-campusverde
+edit_uri: "edit/main"
+
+# Copyright
+copyright: Copyright &copy; 2021 Campus Verde de Parnamirim
+
+# Configuration
+theme:
+  name: material
+  language: pt
+  palette:
+    primary: green
+
+nav:
+  - Início: index.md
+  - Semana do meio ambiente: semana-do-meio-ambiente.md
+  - Equipe:
+    - equipe/fulano.md
+    - equipe/beltrano.md
+    - equipe/sicrano.md
+
+markdown_extensions:
+  - meta
+  - def_list
+  - pymdownx.keys
+  - attr_list
